@@ -1,0 +1,14 @@
+database:
+  path: data/output/etl_database.db
+
+logging:
+  level: INFO
+  directory: logs
+  file: etl_pipeline.log
+
+pipeline:
+  batch_size: 1000
+  save_rejected_records: true
+  datasets:
+    - customers
+    - orders

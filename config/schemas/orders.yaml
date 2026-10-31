@@ -1,0 +1,33 @@
+dataset: orders
+
+required_columns:
+  - order_id
+  - customer_id
+  - order_date
+  - amount
+  - status
+
+primary_key: order_id
+
+rules:
+  order_id:
+    type: integer
+    nullable: false
+  customer_id:
+    type: integer
+    nullable: false
+    foreign_key: customers.customer_id
+  order_date:
+    type: date
+    nullable: false
+  amount:
+    type: float
+    nullable: false
+    min: 0
+  status:
+    type: string
+    nullable: false
+    allowed_values:
+      - completed
+      - pending
+      - cancelled

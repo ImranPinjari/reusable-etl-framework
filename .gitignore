@@ -218,3 +218,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Reusable ETL Framework
+data/generated/
+data/output/
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# ETL logs
+logs/

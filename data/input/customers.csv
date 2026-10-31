@@ -1,0 +1,6 @@
+customer_id,name,email,city,registration_date
+1,Imran,imran@example.com,Pune,2026-01-10
+2,Rahul,rahul@example.com,Mumbai,2026-02-15
+3,Priya,priya@example.com,Nashik,2026-03-20
+4,Amit,amit@example.com,Pune,2026-04-05
+5,Neha,neha@example.com,Dhule,2026-05-12
